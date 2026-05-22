@@ -1,4 +1,5 @@
 # PhonePe Transaction Analysis Dashboard
+Dashboard Drive Link - https://drive.google.com/file/d/1zrMdKhHJ18hdDOM3HDKggZUWg82yzKxq/view?usp=sharing
 
 ## Project Overview
 
@@ -30,24 +31,6 @@ This project aims to answer the following business questions:
 
 ---
 
-## Dataset Information
-
-### Key Dataset Columns
-
-- User_ID
-- User_Name
-- Join_Date
-- Age
-- Transaction_ID
-- Service_Type
-- Transaction_Amount
-- Payment_Status
-- Date
-- Failure_Reason
-- Service_Category
-
----
-
 ## Tools and Technologies Used
 
 | Tool | Purpose |
@@ -63,94 +46,43 @@ This project aims to answer the following business questions:
 
 ## Homepage Dashboard
 
-<img src="screenshotshomepage.png" width="1000">
-
-The homepage dashboard provides a high-level overview of:
-- Total transaction amount
-- Successful and failed transactions
-- Service-wise revenue contribution
-- Monthly transaction trends
+<img src="./screenshotshomepage.png" width="1000">
 
 ---
 
 ## Insurance Dashboard
 
-<img src="04.SCREENSHOTS/screenshotsinsurance_dashboard.png" width="1000">
-
-The Insurance dashboard analyzes:
-- Health Insurance
-- Vehicle Insurance
-- Life Insurance
-- Bike Insurance
-
-Features:
-- Premium collection trends
-- Payment status analysis
-- Failed payment insights
+<img src="./screenshotsinsurance_dashboard.png" width="1000">
 
 ---
 
 ## Loan Dashboard
 
-<img src="04.SCREENSHOTS/screenshotsloan_dashboard.png" width="1000">
-
-The Loan dashboard tracks:
-- Auto Loans
-- Gold Loans
-- Mutual Funds
-- Credit Score transactions
-
-Features:
-- Monthly transaction trends
-- Loan performance analysis
-- Failed payment insights
+<img src="./screenshotsloan_dashboard.png" width="1000">
 
 ---
 
 ## Money Transfer Dashboard
 
-<img src="04.SCREENSHOTS/screenshotsmoney_transfer_dashboard.png" width="1000">
-
-The Money Transfer dashboard visualizes:
-- UPI Transfers
-- QR Transactions
-- Mobile Transfers
-- Self Account Transfers
-
-Features:
-- Transaction trends
-- Payment success vs failure analysis
-- Service performance tracking
+<img src="./screenshotsmoney_transfer_dashboard.png" width="1000">
 
 ---
 
 ## Recharge and Bills Dashboard
 
-<img src="04.SCREENSHOTS/screenshotsrecharge_dashboard.png" width="1000">
-
-The Recharge dashboard tracks:
-- Electricity Bills
-- DTH Recharge
-- Mobile Recharge
-- Cable TV Payments
-
-Features:
-- Monthly transaction analysis
-- Failed payment trends
-- Service-wise usage insights
+<img src="./screenshotsrecharge_dashboard.png" width="1000">
 
 ---
 
-## Failed Payment Analysis
+## Dashboard Features
 
-The dashboard identifies major failed payment reasons including:
-
-- Server Errors
-- Wrong Payment Details
-- Insufficient Balance
-- Wrong PIN
-
-These insights help improve operational reliability and payment success rates.
+- Interactive date range filtering
+- KPI cards for transaction metrics
+- Payment success vs failure analysis
+- Failed payment reason analysis
+- Monthly transaction trends
+- Service-wise performance monitoring
+- PhonePe-inspired dashboard theme
 
 ---
 
@@ -160,45 +92,21 @@ These insights help improve operational reliability and payment success rates.
 - Failed transactions were primarily caused by server errors and insufficient balances.
 - Interactive filters enabled dynamic service-level analysis.
 - Monthly transaction trends highlighted peak transaction periods.
-- A consistent PhonePe-inspired dashboard theme improved visual storytelling.
-
----
-
-## Why This Project Matters
-
-This project demonstrates how Business Intelligence tools can transform raw transactional data into actionable business insights.
-
-The project showcases:
-- Real-world dashboard development
-- KPI-driven <img width="1339" height="747" alt="screenshotsrecharge_dashboard png" src="https://github.com/user-attachments/assets/8f174e5b-0a15-4d66-96e5-cf99c40e9378" />
-<img width="1328" height="745" alt="screenshotsmoney_transfer_dashboard png" src="https://github.com/user-attachments/assets/afb403ed-b0a5-45ac-aade-bb92aeaeb4d3" />
-<img width="1328" height="745" alt="screenshotsloan_dashboard png" src="https://github.com/user-attachments/assets/f0c1ce65-83d8-40a8-b66f-a410bfb841d3" />
-<img width="1333" height="743" alt="screenshotsinsurance_dashboard png" src="https://github.com/user-attachments/assets/f584b099-e24c-4c87-bcb0-4d90fd735eed" />
-reporting
-- Interactive data storytelling
-- Service-wise operational analysis
-- End-to-end Power BI workflow
+- The dashboard improved visualization and operational monitoring of payment services.
 
 ---
 
 ## Project Structure
 
 ```text
-PhonePe-Transaction-Analysis/
+PhonePe-Transaction-Analysis-Dashboard/
 │
 ├── 01.Problem Statement.pdf
 ├── 02.REPORT.pdf
-├── 03.SCREENSHOTS/
-│   ├── screenshotshomepage.png
-│   ├── screenshotsinsurance_dashboard.png
-│   ├── screenshotsloan_dashboard.png
-│   ├── screenshotsmoney_transfer_dashboard.png
-│   └── screenshotsrecharge_dashboard.png
-│
-└── README.md
-
-Conclusion
-
-The PhonePe Transaction Analysis Dashboard demonstrates how Power BI can transform transactional payment data into meaningful business intelligence.
-
-From analyzing transaction trends to identifying failed payment patterns, the project highlights the importance of analytics and visualization in data-driven decision-making.<img width="1351" height="752" alt="screenshotshomepage png" src="https://github.com/user-attachments/assets/b8cec8e2-bd21-4e0f-92b6-2e9e4a9b1e4d" />
+├── Phonepe-Final-Dataset (1).xlsx
+├── README.md
+├── screenshotshomepage.png
+├── screenshotsinsurance_dashboard.png
+├── screenshotsloan_dashboard.png
+├── screenshotsmoney_transfer_dashboard.png
+└── screenshotsrecharge_dashboard.png
