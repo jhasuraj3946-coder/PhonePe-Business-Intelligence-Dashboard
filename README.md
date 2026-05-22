@@ -63,7 +63,7 @@ This project aims to answer the following business questions:
 
 ## Homepage Dashboard
 
-<img src="04.SCREENSHOTS/screenshotshomepage.png" width="1000">
+<img src="screenshotshomepage.png" width="1000">
 
 The homepage dashboard provides a high-level overview of:
 - Total transaction amount
