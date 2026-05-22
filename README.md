@@ -1,5 +1,5 @@
 # PhonePe Transaction Analysis Dashboard
-Dashboard Drive Link - https://drive.google.com/file/d/1zrMdKhHJ18hdDOM3HDKggZUWg82yzKxq/view?usp=sharing
+Power BI Dashboard Drive Link - https://drive.google.com/file/d/1zrMdKhHJ18hdDOM3HDKggZUWg82yzKxq/view?usp=sharing
 
 ## Project Overview
 
